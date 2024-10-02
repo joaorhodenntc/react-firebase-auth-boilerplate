@@ -85,3 +85,8 @@
     color: #0366FF;
     cursor: pointer;
   }
+
+  .error-message{
+    font-size: 15px;
+    color: rgb(210, 78, 78);
+  }

@@ -1,11 +1,11 @@
 import React from 'react';
 import { useContext } from 'react';
 import '../styles/Navbar.css'; // Estilos da Navbar
-import { AuthGoogleContext } from '../context/authGoogle';
+import { AuthContext } from '../context/authContext';
 import UserMenu from './userMenu';
 
 const Navbar: React.FC = () => {
-  const authContext = useContext(AuthGoogleContext);
+  const authContext = useContext(AuthContext);
 
   if (!authContext || !authContext.user) {
     return null; 

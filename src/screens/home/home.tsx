@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { AuthGoogleContext } from "../../context/authGoogle";
+import { AuthContext } from "../../context/authContext";
 import '../../styles/Home.css';
 
 export const Home = () => {
-  const authContext = useContext(AuthGoogleContext);
+  const authContext = useContext(AuthContext);
 
   if (!authContext || !authContext.user) {
     return <div>Loading...</div>; 

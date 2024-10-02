@@ -12,7 +12,7 @@
   
   .dropdown-menu {
     position: absolute; 
-    width: 150px;
+    width: 150px ;
     top: 50px; /* Ajuste conforme necessário para o espaço entre o avatar e o menu */
     right: 0; /* Alinha à direita */
     background-color: white; 

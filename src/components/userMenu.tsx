@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/UserMenu.css'; 
+import defaultAvatar from '../assets/default-avatar.png';
 
 interface UserMenuProps {
   photoURL: string | null; 
@@ -16,8 +17,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ photoURL, onLogout }) => {
   return (
     <div className="user-menu">
       <img 
-        src={photoURL || 'default-avatar.png'} 
-        alt="User Avatar" 
+        src={photoURL || defaultAvatar} 
         className="user-avatar" 
         onClick={toggleMenu} // Alterna o menu ao clicar na imagem
       />
