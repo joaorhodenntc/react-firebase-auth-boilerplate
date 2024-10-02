@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;700&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEF2F5;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    gap: 10px;
+    width: 450px;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 21px -3px rgba(0,0,0,0.1);
+  }
+
+  .login input{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid #E6E6E6;
+    box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+    
+  }
+
+  .login input:focus {
+    border-color: #8AC0FF; 
+    outline: none;
+    font-weight: 600;
+  }
+
+  .login h1 {
+    margin-bottom: -20px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #292929;
+  }
+
+  .sub-title {
+    font-family: 'IBM Plex Serif', serif;
+    color: #545454;
+    font-size: 15px;
+  }
+
+  .continue{
+    margin-top: 25px;
+    font-size: 12px;
+    color: #4F4F4F;
+  }
+
+  .google-btn{
+    border: none;
+    background-color: #F7F7F7;
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .google-btn:hover{
+    opacity: 0.8;
+  }
+
+ .google-btn img {
+    width: 30px;
+  }
+
+  .btn-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+ .btn-login button{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    width: 80%;
+    background-color: #0366FF;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .no-account{
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .no-account span{
+    color: #0366FF;
+    cursor: pointer;
+  }
